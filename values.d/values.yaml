@@ -23,7 +23,7 @@ controller:
   updateStrategy:
     rollingUpdate:
       maxSurge: 3
-      minUnavailable: 0
+      maxUnavailable: 0
 
   config:
     use-proxy-protocol: "true"
