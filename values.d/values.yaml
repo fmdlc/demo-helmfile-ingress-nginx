@@ -36,5 +36,4 @@ controller:
   annotations:
     kubernetes.io/ingress.class: "nginx"
     kubernetes.io/ingress.allow-http: "true"
-    service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: '*'
     service.beta.kubernetes.io/aws-load-balancer-log-enabled: "false"
