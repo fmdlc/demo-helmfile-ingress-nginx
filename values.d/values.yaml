@@ -31,7 +31,7 @@ controller:
   service:
     enabled: true
     enableHttp: true
-    enableHttps: false
+    enableHttps: true
 
   annotations:
     kubernetes.io/ingress.class: "nginx"
